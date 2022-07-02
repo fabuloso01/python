@@ -67,7 +67,30 @@ for valor in range(1,11):
     	for numero in range(1,11):
     		print(f'{valor} x {numero} = {valor*numero}')
 '''
+'''
 x=11
 for a in range(1,4):
     for x in range(1, 11):
         print(x, end=" ")
+'''
+'''
+num=0
+while 0<=num<=10:
+    num=int(input('Insira um número inteiro entre 0-10: '))
+    if num<0 or num>10:
+      print('Fim do programa.')
+'''
+'''
+while True:
+    num=int(input('Insira um número inteiro entre 0-10: '))
+    if num<0 or num>10:
+        print('Fim do programa.')
+        break
+'''
+ '''
+for i in range(1,11):
+    n = int(input("Informe um número de 0-10: "))
+    if n < 0 or n > 10:
+        print('Fim do programa.')
+        break
+'''
