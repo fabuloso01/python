@@ -61,4 +61,13 @@ n = int(input("Informe um número: "))
 
 for i in range(1,11):
     print(f"{n}x{i} = {n*i}")
-    
+    '''
+'''
+for valor in range(1,11):
+    	for numero in range(1,11):
+    		print(f'{valor} x {numero} = {valor*numero}')
+'''
+x=11
+for a in range(1,4):
+    for x in range(1, 11):
+        print(x, end=" ")
